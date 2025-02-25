@@ -1,6 +1,14 @@
 # E-Commerce Dashboard
 
-> The dashboard of Multi-language E-Commerce website similar to `dubbizzle`
+> A React-based admin dashboard for managing a multi-language e-commerce platform similar to Dubizzle. It provides an intuitive UI with PrimeReact, real-time state management using Zustand, and data visualization with Chart.js. The project supports API integration via Axios and ensures code consistency with ESLint & Prettier. CircleCI is integrated for automated CI/CD deployment.
+
+Key Features:
+State management with Zustand
+Interactive UI with PrimeReact & PrimeFlex
+API handling with Axios
+Data visualization using Chart.js
+Automated deployment with CircleCI
+
 
 ## Technologies Used:
 
