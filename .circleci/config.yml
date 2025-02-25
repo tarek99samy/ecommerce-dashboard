@@ -1,0 +1,65 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: circleci/node:16-browsers
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-
+
+      - run:
+          name: Install Dependencies
+          command: npm install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run:
+          name: Build the React App
+          command: npm run build
+
+      - persist_to_workspace:
+          root: .
+          paths:
+            - build
+
+  deploy:
+    docker:
+      - image: circleci/node:16
+
+    working_directory: ~/repo
+
+    steps:
+      - attach_workspace:
+          at: ~/repo
+
+      - run:
+          name: Add VPS to Known Hosts
+          command: |
+            mkdir -p ~/.ssh
+            ssh-keyscan -H [MACHINE_IP] >> ~/.ssh/known_hosts
+
+      - run:
+          name: Deploy to VPS
+          command: |
+            scp -r ./build/* root@[MACHINE_IP]:/var/www/[MACHINE_IP]
+            ssh root@[MACHINE_IP] 'systemctl reload nginx'
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build

@@ -1,0 +1,6 @@
+@use '../mixins' as mix;
+@use '../variables' as vars;
+
+.statistics {
+  @include mix.flexArea(column, center, center);
+}

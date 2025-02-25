@@ -1,0 +1,138 @@
+@font-face {
+  font-family: IBMPlex-Thin;
+  src: url(../assets/fonts/IBMPlexSansArabic-Thin.ttf);
+}
+
+@font-face {
+  font-family: IBMPlex-ExtraLight;
+  src: url(../assets/fonts/IBMPlexSansArabic-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: IBMPlex-Light;
+  src: url(../assets/fonts/IBMPlexSansArabic-Light.ttf);
+}
+
+@font-face {
+  font-family: IBMPlex-Regular;
+  src: url(../assets/fonts/IBMPlexSansArabic-Regular.ttf);
+}
+
+@font-face {
+  font-family: IBMPlex-Medium;
+  src: url(../assets/fonts/IBMPlexSansArabic-Medium.ttf);
+}
+
+@font-face {
+  font-family: IBMPlex-SemiBold;
+  src: url(../assets/fonts/IBMPlexSansArabic-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: IBMPlex-Bold;
+  src: url(../assets/fonts/IBMPlexSansArabic-Bold.ttf);
+}
+
+* {
+  font-family: 'IBMPlex-Medium';
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.dir-ltr {
+  direction: ltr !important;
+}
+
+.dir-rtl {
+  direction: rtl !important;
+}
+
+.p-card-body {
+  width: 100%;
+  padding: 0;
+}
+
+.p-password-input,
+.p-icon-field {
+  width: 100%;
+}
+
+.p-tabview-panels {
+  width: 100%;
+}
+
+.p-component {
+  font-size: 0.9rem;
+}
+
+.p-multiselect-token {
+  direction: ltr;
+}
+
+.p-datatable .p-datatable-tbody > tr > td,
+.p-datatable .p-datatable-thead > tr > th {
+  text-align: start;
+  padding: 0.5rem;
+}
+
+.p-paginator {
+  direction: ltr;
+}
+
+.p-multiselect-panel .p-multiselect-items .p-multiselect-item .p-checkbox,
+.p-menuitem-icon {
+  margin-left: 0.5rem;
+}
+
+.p-datepicker {
+  direction: ltr;
+}
+
+.p-toast-message-text,
+.p-submenu-icon,
+.p-sortable-column-icon,
+.p-multiselect-select-all-label,
+.p-multiselect-panel .p-multiselect-header .p-multiselect-close {
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
+.p-menubar .p-menubar-end {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.p-row-editor-save,
+.p-multiselect-panel .p-multiselect-header .p-checkbox {
+  margin: 0;
+}
+
+.p-colorpicker-preview {
+  opacity: 1 !important;
+}
+
+.p-chips-token {
+  direction: ltr;
+}

@@ -1,0 +1,171 @@
+{
+  "en": {
+    "appTitle": "Ecommerce",
+    "logout": "Logout",
+    "navbar": {
+      "link1": "Motors",
+      "link2": "Properties",
+      "searchPlaceholder": "Find Cars, Mobile Phones and more...",
+      "sell": "Sell",
+      "otherLang": "العربية"
+    },
+    "footer": {
+      "copyright": "© 2024 Ecommerce. All rights reserved."
+    },
+    "login": {
+      "form": {
+        "email": "example@ex.com",
+        "phone": "phone number without country code",
+        "country_code": "Country Code (eg: 20, 966, ...etc)",
+        "password": "Password at least 8 characters",
+        "forgot": "Forgot password?",
+        "invalidField": "Please fill in this field with correct data",
+        "error": {
+          "generic": "Failed to login or data is not correct, please try again",
+          "notVerified": "Please verify your account first",
+          "notFound": "Account not found",
+          "blocked": "Please wait for {} seconds, then try again"
+        },
+        "success": "Logged In successfully, redirecting..."
+      },
+      "title": "Login to your account",
+      "subtitle": "Don't have an account?",
+      "tab1": "Login by phone number",
+      "tab2": "Login by email"
+    },
+    "register": {
+      "form": {
+        "email": "example@ex.com",
+        "phone": "phone number without country code",
+        "name": "Your preferred name (optional)",
+        "country_code": "Country Code (eg: 20, 966, ...etc)",
+        "password": "Password at least 8 characters",
+        "submit": "Register",
+        "country": "Choose you country",
+        "invalidField": "Please fill in this field with correct data",
+        "error": "Registration failed or data is not correct, please try again",
+        "duplicated": "This email or phone already exist",
+        "success": "Registered successfully"
+      },
+      "title": "Create an account",
+      "subtitle": "Already have an account?",
+      "info": "Create free account and enjoy selling anything on Ecommerce"
+    },
+    "verifyAccount": {
+      "title": "Verify your account using WhatsApp",
+      "subtitle": "Please make sure entered phone number has WhatsApp to receive our OTP",
+      "invalidField": "Please fill in this field with correct data",
+      "backBtn": "Back to login",
+      "sendOTP": {
+        "phone": "Phone number to send OTP on whatsapp",
+        "country_code": "Country Code",
+        "submit": "Send OTP",
+        "success": "OTP sent successfully",
+        "error": "Failed to send otp to given number or number is not correct, please try again"
+      },
+      "verifyOTP": {
+        "phone": "Phone number received otp",
+        "otp": "XXXX",
+        "submit": "Check OTP",
+        "success": "OTP verified successfully",
+        "error": "Failed to verify otp, please try sending otp again"
+      },
+      "resetPassword": {
+        "title": "Reset Password",
+        "password": "Your new password at least 8 characters",
+        "phone": "Your account phone number without country code",
+        "invalidField": "Please fill in this field with correct data",
+        "success": "Password reset successfully",
+        "error": {
+          "different": "Passwords do not match",
+          "generic": "Failed to reset password, please try again"
+        }
+      }
+    }
+  },
+  "ar": {
+    "appTitle": "سوق الكتروني",
+    "logout": "تسجيل الخروج",
+    "navbar": {
+      "link1": "السيارات",
+      "link2": "العقارات",
+      "searchPlaceholder": "ابحث عن السيارات، الهواتف وأكثر...",
+      "sell": "بيع",
+      "otherLang": "English"
+    },
+    "footer": {
+      "copyright": "جميع حقوق النشر محفوظة لدى سوق الكتروني © 2024"
+    },
+    "login": {
+      "form": {
+        "email": "البريد الالكتروني",
+        "phone": "رقم الهاتف بدون كود البلد",
+        "country_code": "كود البلد مثل 20",
+        "password": "كلمة المرور 8 أحرف على الأقل",
+        "forgot": "نسيت كلمة المرور ؟",
+        "invalidField": "برجاء ادخال بيانات صحيحة",
+        "error": {
+          "generic": "فشل في تسجيل الدخول او البيانات غير صحيحة، الرجاء المحاولة مجددا",
+          "notVerified": "يرجى التحقق من حسابك اولا قبل تسجيل الدخول",
+          "notFound": "الحساب غير موجود",
+          "blocked": "من فضلك انتظر {} ثانية قبل المحاولة مجددا"
+        },
+        "success": "تم تسجيل الدخول بنجاح، جاري تحويلك..."
+      },
+      "title": "تسجيل الدخول",
+      "subtitle": "ليس لديك حساب؟",
+      "tab1": "تسجيل الدخول برقم الهاتف",
+      "tab2": "تسجيل الدخول بالبريد الالكتروني"
+    },
+    "register": {
+      "form": {
+        "email": "example@ex.com",
+        "phone": "رقم الهاتف بدون كود البلد",
+        "name": "(اختياري) اسمك المفضل",
+        "country_code": "كود البلد مثل 20",
+        "password": "كلمة المرور 8 أحرف على الأقل",
+        "submit": "التسجيل",
+        "country": "اختر البلد",
+        "invalidField": "برجاء ادخال بيانات صحيحة",
+        "error": "فشل التسجيل او البيانات غير صحيحة، الرجاء المحاولة مجددا",
+        "duplicated": "هذا البريد الالكتروني او رقم الهاتف موجود بالفعل",
+        "success": "تم التسجيل بنجاح"
+      },
+      "title": "سجل حسابك مجاني",
+      "subtitle": "لديك حساب بالفعل ؟",
+      "info": "قم بتسجل الدخول الان"
+    },
+    "verifyAccount": {
+      "title": "تحقق من حسابك باستخدام واتساب",
+      "subtitle": "يرجى التأكد من رقم الهاتف الذي تم ادخاله لاستقبال رمز التحقق عليه على واتساب",
+      "invalidField": "برجاء ادخال بيانات صحيحة",
+      "backBtn": "العودة لتسجيل الدخول",
+      "sendOTP": {
+        "phone": "رقم الهاتف لإرسال رمز التحقق عليه على الواتساب",
+        "country_code": "كود البلد مثل 20",
+        "invalidField": "برجاء ادخال بيانات صحيحة",
+        "submit": "ارسال رمز التحقق",
+        "success": "تم ارسال رمز التحقق بنجاح",
+        "error": "فشل في ارسال رمز التحقق للرقم او الرقم غير صحيحة، الرجاء المحاولة مجددا"
+      },
+      "verifyOTP": {
+        "phone": "رقم الهاتف المستقبل لرمز التحقق",
+        "otp": "XXXX",
+        "submit": "التحقق من الرمز",
+        "success": "تم التحقق من رمز التحقق بنجاح",
+        "error": "فشل التحقق من الرمز، الرجاء ارسال الرمز مجددا"
+      },
+      "resetPassword": {
+        "title": "إعادة تعيين كلمة المرور",
+        "password": "كلمة المرور الجديدة على الاقل 8 حروف",
+        "phone": "رقم الهاتف الخاص بحسبابك بدون كود البلد",
+        "invalidField": "برجاء ادخال بيانات صحيحة",
+        "success": "تم اعادة تعيين كلمة المرور بنجاح",
+        "error": {
+          "different": "كلمات المرور غير متطابقة",
+          "generic": "فشل في اعادة تعيين كلمة المرور، الرجاء المحاولة مجددا"
+        }
+      }
+    }
+  }
+}
